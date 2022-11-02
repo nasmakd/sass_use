@@ -1,0 +1,16 @@
+.chats{
+  margin-left: 70px;
+}
+
+a.preview_wrap{
+  color: #000;
+  .preview{
+    transition: .3s;
+    &:hover{background-color: $opacityGray;}
+  }
+  &:first-child > .preview{
+    background-color: rgba(231, 231, 231, 0.2);
+  }
+
+}
+
